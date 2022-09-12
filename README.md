@@ -5,13 +5,13 @@ Finally, different reinforcement learning objectives, such as time cost and tota
 ## Environmental dependence
 The code requires python3 (>=3.6) with the development headers. The code also need system packages tensflow, os, torch, openpyxl, matplotlib, numpy pandas and gym. 
 ## Catalog Structure
-###contrast
+### contrast
 with DQN algorithm combined with Gkmeans, DDPG algorithm combined with full unloading rate and Gkmeans, DDPG algorithm combined with all local unloading method and Gkmeans, DDPG algorithm without Gkmeans, etc. Different parameter settings are performed separately for comparison experiments, and the reinforcement learning objective is the total consumption cost.
-###contrast_time
+### contrast_time
 comparison experiments with DQN algorithm combined with Gkmeans, DDPG algorithm combined with full unloading rate and Gkmeans, DDPG algorithm combined with all local unloading method and Gkmeans, DDPG algorithm without Gkmeans, etc. with different parameter settings respectively, and the reinforcement learning objective is the total time cost.
-###ddpg
+### ddpg
 using ddpg algorithm + Gkemans clustering algorithm to achieve vehicle clustering and partial unloading
-###dqn
+### dqn
 Vehicle partial unloading using dqn algorithm
 ## Statement
 In this project, due to the different parameter settings of vehicle, task, RSU, etc., the parameters of reinforcement learning algorithm are set differently, and the reinforcement learning process is different, resulting in different experimental results
