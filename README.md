@@ -7,7 +7,7 @@ Finally, different reinforcement learning objectives, such as time cost and tota
 
 ## Environmental Dependence
 
-The code requires python3 (>=3.6) with the development headers. The code also need system packages as bellow
+The code requires python3 (>=3.6) with the development headers. The code also need system packages as bellow:
 
 tensflow ==2.9.1，
 
@@ -25,13 +25,13 @@ pandas == 1.4.2，
 
 gym == 0.18.0. 
 
-If users encounter environmental problems and reference package version problems that prevent the program from running, please refer to the above installation package and corresponding version
+If users encounter environmental problems and reference package version problems that prevent the program from running, please refer to the above installation package and corresponding version.
 
 
 
 ## How to Run
 
-Each file in the dev folder is independent, for example, if you want to run the code in the ddpg file, run run.py, and if the above installation packages are successfully installed, you can run the code. DQN and DDPG files are run through **run.py**, contrast and contrast_time are executed through **Python files starting with main**
+Each file in the dev folder is independent, for example, if you want to run the code in the ddpg file, run run.py, and if the above installation packages are successfully installed, you can run the code. DQN and DDPG files are run through **run.py**, contrast and contrast_time are executed through **Python files starting with main**.
 
 ## Catalog Structure
 
@@ -57,7 +57,7 @@ Comparison experiments with DQN algorithm combined with Gkmeans, DDPG algorithm 
 
 ### ddpg
 
-Using ddpg algorithm + Gkemans clustering algorithm to achieve vehicle clustering and partial unloading.ddpg
+Using ddpg algorithm + Gkemans clustering algorithm to achieve vehicle clustering and partial unloading.ddpg.
 
 **File description:**
 
